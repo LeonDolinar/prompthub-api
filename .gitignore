@@ -1,0 +1,47 @@
+# Rust-specific
+/target
+**/*.rs.bk
+Cargo.lock  # Remove this line if you want to commit your lockfile
+
+# General build artifacts
+*.o
+*.so
+*.a
+*.dll
+*.exe
+*.out
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment and configuration
+.env
+*.local
+
+# Logs
+*.log
+
+# Testing
+test-result-*
+
+# Documentation
+docs/_build/
+
+# Dependency directories (if you have any custom ones)
+/vendor
+
+# Database files (if you're using local database files)
+*.db
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
